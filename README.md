@@ -1,4 +1,7 @@
-<img src="https://github.com/GLaveli/eyemobile/blob/main/gitAssets/eyemobile.fw.png" width="75">
+<img src="https://github.com/GLaveli/eyemobile/blob/main/gitAssets/eyemobile.fw.png" width="150px" height="120px" align="left"/>
+
+# Back-end Node.js
+Teste Eyemobile
 
 ------------------------------------------
 # Requisitos para a instalação:
