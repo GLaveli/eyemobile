@@ -1,4 +1,4 @@
-![EyeMobile](https://github.com/GLaveli/eyemobile/blob/main/gitAssets/eyemobile.fw.png)
+<img src="https://github.com/GLaveli/eyemobile/blob/main/gitAssets/eyemobile.fw.png" width="75">
 
 ------------------------------------------
 # Requisitos para a instalação:
