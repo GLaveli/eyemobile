@@ -18,7 +18,7 @@ Execute na pasta raiz do projeto o comando (CMD):
  npm install
 ```
 
-Aguarde a instalação e em seguida execute o comandos:
+Aguarde a instalação e em seguida execute o comando:
 ```
  npm start
 ```
@@ -29,7 +29,7 @@ Será exibido uma mensagem em caso de sucesso, basta acessar a URL:
 
 # Instalação Front-end:
 
-Para clonar o frontent basta clicar [aqui](https://github.com/GLaveli/eyemobile-frontend) ou se preferir pode utilizar a propria interface através das rotas
+Para clonar o frontend basta clicar [aqui](https://github.com/GLaveli/eyemobile-frontend) ou se preferir pode utilizar a propria interface através das rotas
 
 ------------------------------------------
 # Utilização de rotas:
