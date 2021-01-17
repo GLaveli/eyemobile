@@ -33,9 +33,12 @@ Para clonar o frontent basta clicar [aqui](https://github.com/GLaveli/eyemobile-
 
 ------------------------------------------
 # Utilização de rotas:
-*Em breve!
 
 ```
-POST -> /login
+POST, GET, PATCH, DELETE -> /pedidos
+```
+
+```
+POST, GET, PATCH, DELETE -> /produtos
 ```
 ------------------------------------------

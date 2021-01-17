@@ -3,11 +3,13 @@ const { Router } = require('express');
 const router = Router();
 
 router.get('/', (req, res, next) => {
-  return res.status(200).json({ Message: "GET Pedidos" })
+  return res.status(200).json({ Message: "GET Pedidos" });
 });
 
 router.post('/', (req, res, next) => {
-  return res.status(200).json({ Message: "POST Pedidos" })
+
+  const pedido = req.body;
+  return res.status(200).json(pedido);
 });
 
 router.post('/:id_pedido', (req, res, next) => {
@@ -21,7 +23,7 @@ router.post('/:id_pedido', (req, res, next) => {
 });
 
 router.delete('/', (req, res, next) => {
-  return res.status(200).json({ Message: "DELETE Pedidos" })
+  return res.status(200).json({ Message: "DELETE Pedidos" });
 });
 
 
