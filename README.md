@@ -35,8 +35,22 @@ Para clonar o frontend basta clicar [aqui](https://github.com/GLaveli/eyemobile-
 # Utilização de rotas:
 
 ```
-POST, GET, PATCH, DELETE -> /pedidos
+GET, POST -> /products
 ```
+
+# O body deve conter os seguintes parametros para criar/editar um produto
+
+{
+"name":"produto 01"
+"price": 19.90
+}
+
+```
+PUT, DELETE -> /products/:id
+```
+
+# A URL deve conter o ID do produto para deletar/alterar
+http://localhost:3333/
 
 ```
 POST, GET, PATCH, DELETE -> /produtos
