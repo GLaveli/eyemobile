@@ -41,7 +41,7 @@ GET, POST -> /products
 # O body deve conter os seguintes parametros para criar/editar um produto
 
 {
-"name":"produto 01"
+"name":"produto 01",
 "price": 19.90
 }
 
@@ -50,7 +50,7 @@ PUT, DELETE -> /products/:id
 ```
 
 # A URL deve conter o ID do produto para deletar/alterar
-http://localhost:3333/
+http://localhost:3333/products/12
 
 ```
 POST, GET, PATCH, DELETE -> /produtos
