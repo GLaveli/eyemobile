@@ -38,7 +38,7 @@ Para clonar o frontend basta clicar [aqui](https://github.com/GLaveli/eyemobile-
 GET, POST -> /products
 ```
 
-# O body deve conter os seguintes parametros para criar/editar um produto
+O body deve conter os seguintes parametros para criar/editar um produto
 
 {
 "name":"produto 01",
@@ -49,7 +49,7 @@ GET, POST -> /products
 PUT, DELETE -> /products/:id
 ```
 
-# A URL deve conter o ID do produto para deletar/alterar
+A URL deve conter o ID do produto para deletar/alterar
 http://localhost:3333/products/12
 
 ```
