@@ -5,6 +5,10 @@ module.exports = {
 
   async index(req, res) {
     const result = await Knex('products');
+
+    if (!result.length)
+      return res.json("Esta tabela esta vazia!");
+
     return res.json(result);
   },
 

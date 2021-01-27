@@ -17,10 +17,12 @@ Execute na pasta raiz do projeto o comando (CMD):
 ```
  npm install
 ```
+Enquando ocorre a instalção das dependencias vá até o seu banco de dados e crie o schema: eyemobile
 
-Aguarde a instalação e em seguida execute o comando:
+volte ao CMD do projeto e use os seguintes comandos
 ```
- npm start
+ npx knex migrate:latest
+ npx knex seed:run
 ```
 Será exibido uma mensagem em caso de sucesso, basta acessar a URL: 
 ```

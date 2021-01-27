@@ -3,6 +3,8 @@ exports.up = (knex) => {
 
   return knex.schema.createTable('products', (table) => {
     table.increments('id')
+    .primary()
+    .unsigned();
     table.string('name').notNullable()
     table.double('price').notNullable()
 
